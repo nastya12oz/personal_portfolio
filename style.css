@@ -1,0 +1,5 @@
+body {
+  background: rgb(213,181,255);
+  background: linear-gradient(290deg, rgba(213,181,255,0.7049413515406162) 13%, rgba(182,240,247,0.7581626400560224) 100%);
+  font-family: "Gill Sans", sans-serif;
+}
