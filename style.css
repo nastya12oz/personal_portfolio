@@ -4,11 +4,21 @@ body {
   font-family: "Gill Sans", sans-serif;
 }
 
-.hero-description {
+.hero-description-main {
+  font-size: 27px;
   line-height: 40px;
 
+  @media (min-width: 1200px) {
+    font-size: 50px;
+    line-height: 63px;
+  }
+}
+
+.hero-description-second {
+  font-size: 22px;
+
   @media (min-width: 768px) {
-    line-height: 73px;
+    font-size: 22px;
   }
 }
 
@@ -162,7 +172,7 @@ a:hover img {
   width: 99%;
 }
 
-a:hover .fa-brands {
+a:hover .fa-brands, a:hover {
   color: #6389ca !important;
 }
 
@@ -185,6 +195,7 @@ em:hover {
 
 .footer_link {
   color: #222;
+  text-decoration: none;
 }
 
 .dropdown-menu {
@@ -192,6 +203,15 @@ em:hover {
 
   @media (min-width: 1200px) {
     background-color: transparent;
+  }
+}
+
+.description_decoration {
+
+  @media (min-width: 880px) {
+    border: solid 2px #222;
+    border-radius: 30px;
+    padding: 7px;
   }
 
 }
