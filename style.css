@@ -34,10 +34,6 @@ body {
   bottom: 0;
 }
 
-a:hover img {
-  opacity: 1;
-}
-
 .circles{
   z-index: -1;
   position: absolute;
@@ -139,6 +135,63 @@ a:hover img {
       transform: translateY(-1000px) rotate(720deg);
       opacity: 0;
       border-radius: 50%;
+  }
+
+}
+
+.github_btn {
+  background-color: transparent;
+  border: solid 1px #222;
+  border-radius: 25px;
+}
+
+.github_btn:hover {
+  color: #6389ca;
+  border-color: #6389ca;
+}
+
+h4 {
+  font-weight: 300;
+}
+
+p {
+  font-weight: 200;
+}
+
+a:hover img {
+  width: 99%;
+}
+
+a:hover .fa-brands {
+  color: #6389ca !important;
+}
+
+em {
+  text-decoration: underline wavy #6389ca 1px;
+}
+
+em:hover {
+  color:black;
+  font-weight: 350;
+}
+
+.nav-link {
+  font-size: 16px;
+
+  @media (min-width: 768px) {
+    font-size: 22px;
+  }
+}
+
+.footer_link {
+  color: #222;
+}
+
+.dropdown-menu {
+  background-color: #fff;
+
+  @media (min-width: 1200px) {
+    background-color: transparent;
   }
 
 }
